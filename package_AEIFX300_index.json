@@ -3,7 +3,7 @@
     {
       "name": "Anidea Engineering AEI FX Series Controllers",
       "maintainer": "Gabriel Goldstein",
-      "websiteURL": "https://github.com/anidea/aeifx300",
+      "websiteURL": "https://anidea.github.io/aeifx/package_AEIFX300_index.json",
       "email": "support@anidea-engineering.com",
       "help": {
         "online": "http://www.anidea-engineering.com/"
@@ -17,7 +17,7 @@
           "help": {
             "online": "http://www.anidea-engineering.com/fx300"
           },
-          "url": "https://github.com/anidea/aeifx300/aeifx300-1.0.0.zip",
+          "url": "https://anidea.github.io/aeifx/aeifx300-1.0.0.zip",
           "archiveFileName": "aeifx300-1.0.0.zip",
           "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
           "size": "15005",
