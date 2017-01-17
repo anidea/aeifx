@@ -1,0 +1,45 @@
+{
+  "packages": [
+    {
+      "name": "Anidea Engineering AEI FX Series Controllers",
+      "maintainer": "Gabriel Goldstein",
+      "websiteURL": "https://github.com/anidea/aeifx300",
+      "email": "support@anidea-engineering.com",
+      "help": {
+        "online": "http://www.anidea-engineering.com/"
+      },
+      "platforms": [
+        {
+          "name": "aeif x300",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "http://www.anidea-engineering.com/fx300"
+          },
+          "url": "https://github.com/anidea/aeifx300/aeifx300-1.0.0.zip",
+          "archiveFileName": "aeifx300-1.0.0.zip",
+          "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
+          "size": "15005",
+          "boards": [
+            {"name": "aei fx300"},
+            
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+      ],
+      "tools":[]
+    }
+  ]
+}
