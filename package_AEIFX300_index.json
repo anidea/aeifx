@@ -10,15 +10,15 @@
       },
       "platforms": [
         {
-          "name": "AEI FX300",
+          "name": "AEI FX Escape Game Controllers",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
           "help": {
             "online": "http://www.anidea-engineering.com/fx300"
           },
-          "url": "https://anidea.github.io/aeifx/aeifx300-1.0.0.zip",
-          "archiveFileName": "aeifx300-1.0.0.zip",
+          "url": "https://anidea.github.io/aeifx/aeifx-1.0.0.zip",
+          "archiveFileName": "aeifx-1.0.0.zip",
           "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
           "size": "15005",
           "boards": [
