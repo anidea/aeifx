@@ -19,7 +19,7 @@
           },
           "url": "https://anidea.github.io/aeifx/aeifx-1.0.0.zip",
           "archiveFileName": "aeifx-1.0.0.zip",
-          "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
+          "checksum": "SHA-256:373AA96AFD31251D4E5C872DBFAD03A471612EAB6F1FC3D92C37A05B7268C6AD",
           "size": "15005",
           "boards": [
             {"name": "AEI FX300"}
