@@ -27,5 +27,5 @@ aeifx300.build.f_cpu=16000000L
 aeifx300.build.board=AEIFX_300
 aeifx300.build.core=arduino:arduino
 # aeifx300.build.variant=arduino:standard
-aeifx300.build.variant=eightanaloginputs
+aeifx300.build.variant=aeifx300
 
