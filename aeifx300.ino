@@ -1,12 +1,12 @@
 #define RELAY0  2
 #define RELAY1  3
 
-#define OUT0    4
-#define OUT1    5
-#define OUT2    6
-#define OUT3    7
-#define OUT4    8
-#define OUT5    9
+#define OUTPUT0    4
+#define OUTPUT1    5
+#define OUTPUT2    6
+#define OUTPUT3    7
+#define OUTPUT4    8
+#define OUTPUT5    9
 
 #define INPUT0  14
 #define INPUT1  15
@@ -27,12 +27,12 @@ void setup() {
 
   pinMode(RELAY0, OUTPUT);
   pinMode(RELAY1, OUTPUT);
-  pinMode(OUT0, OUTPUT);
-  pinMode(OUT1, OUTPUT);
-  pinMode(OUT2, OUTPUT);
-  pinMode(OUT3, OUTPUT);
-  pinMode(OUT4, OUTPUT);
-  pinMode(OUT5, OUTPUT);
+  pinMode(OUTPUT0, OUTPUT);
+  pinMode(OUTPUT1, OUTPUT);
+  pinMode(OUTPUT2, OUTPUT);
+  pinMode(OUTPUT3, OUTPUT);
+  pinMode(OUTPUT4, OUTPUT);
+  pinMode(OUTPUT5, OUTPUT);
   pinMode(LED, OUTPUT);
   
 
@@ -50,10 +50,10 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 #if 0
-  digitalWrite(RELAY1, HIGH);
+  digitalWrite(RELAY0, HIGH);
   digitalWrite(LED, HIGH);
   delay(1000);
-  digitalWrite(RELAY1, LOW);
+  digitalWrite(RELAY0, LOW);
   digitalWrite(LED, LOW);
   delay(1000);
 
