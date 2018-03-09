@@ -10,7 +10,8 @@
 			{
 				"online": "http://www.github.com/anidea/"
 			},
-			"platforms":[
+			"platforms":
+			[
 				{
 					"name": "FX300 FX350 Controller",
 					"architecture": "avr",
@@ -22,9 +23,10 @@
 					},
 					"url": "https://anidea.github.io/aeifx/ae-fx350-1.0.1.zip",
 					"archiveFileName": "ae-fx350-1.0.1.zip",
-					"checksum": "SHA-256:8331eb609ba170129cae6eebb23f235b7d09e126458cd5a41a6f75da42f63deb",
-					"size": "5367",
-					"boards":[
+					"checksum": "SHA-256:1ccd00028f6f1662cf833ac5e12d38ccca2e11596682850415bea7380ae5758c",
+					"size": "5373",
+					"boards":
+					[
 						{
 							"name": "FX300"
 						},
@@ -53,7 +55,7 @@
 					"category": "Contributed",
 					"url": "https://anidea.github.io/aeifx/ae-fx450-1.0.1.zip",
 					"archiveFileName": "ae-fx450-1.0.1.zip",
-					"checksum": "SHA-256:cef161fef609374ec3f08c2f8d6f39ad5445bfb4bfe9d04bca9ad5ca70439b21",
+					"checksum": "SHA-256:6891e8b2931caa1b7fe33034546e18263ae0f33f33685d2f1c9c81f992960e24",
 					"size": "4248186",
 					"help":
 					{
