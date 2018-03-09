@@ -13,7 +13,7 @@
 			"platforms":
 			[
 				{
-					"name": "FX300 FX350 Controller",
+					"name": "FX 300 Series Escape Room Controllers",
 					"architecture": "avr",
 					"version": "1.0.1",
 					"category": "Contributed",
@@ -23,8 +23,8 @@
 					},
 					"url": "https://anidea.github.io/aeifx/ae-fx350-1.0.1.zip",
 					"archiveFileName": "ae-fx350-1.0.1.zip",
-					"checksum": "SHA-256:1ccd00028f6f1662cf833ac5e12d38ccca2e11596682850415bea7380ae5758c",
-					"size": "5373",
+					"checksum": "SHA-256:8769eea2bf5b37a88489a2eedc16c879b93277b14fb80673a9055f793e4951d5",
+					"size": "5363",
 					"boards":
 					[
 						{
@@ -49,14 +49,14 @@
 					]
 				},
 				{
-					"name": "FX450 Controller",
+					"name": "FX 400 Series Escape Room Controllers",
 					"architecture": "samd",
 					"version": "1.0.1",
 					"category": "Contributed",
 					"url": "https://anidea.github.io/aeifx/ae-fx450-1.0.1.zip",
 					"archiveFileName": "ae-fx450-1.0.1.zip",
-					"checksum": "SHA-256:6891e8b2931caa1b7fe33034546e18263ae0f33f33685d2f1c9c81f992960e24",
-					"size": "4248186",
+					"checksum": "SHA-256:8839589e4659100393367a12a1b2a0789f4307c52493d5206f9456a8d6de31e8",
+					"size": "4248184",
 					"help":
 					{
 						"online": "http://www.github.com/anidea/"
@@ -126,76 +126,6 @@
 							"host": "i686-mingw32",
 							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
 							"size": "102981732"
-						}
-					]
-				},
-				{
-					"version": "9.4.0",
-					"name": "nrfjprog",
-					"systems":
-					[
-						{
-							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-mac.tar.bz2",
-							"checksum": "MD5:04f65e24f36d55d10b71c1ebf49cd070",
-							"host": "i386-apple-darwin11",
-							"archiveFileName": "nrfjprog-9.4.0-mac.tar.bz2",
-							"size": "362222"
-						},
-						{
-							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux32.tar.bz2",
-							"checksum": "MD5:9cf73f1f78cb8e249ed4e6f963d08a35",
-							"host": "i686-linux-gnu",
-							"archiveFileName": "nrfjprog-9.4.0-linux32.tar.bz2",
-							"size": "177428"
-						},
-						{
-							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux64.tar.bz2",
-							"checksum": "MD5:da3c7b348e0c22766f175a4a9cca0d19",
-							"host": "x86_64-pc-linux-gnu",
-							"archiveFileName": "nrfjprog-9.4.0-linux64.tar.bz2",
-							"size": "190020"
-						},
-						{
-							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-win32.tar.bz2",
-							"checksum": "MD5:8352392ae0272173e1508d1218f51671",
-							"host": "i686-mingw32",
-							"archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
-							"size": "851576"
-						}
-					]
-				},
-				{
-					"version": "1.0.0",
-					"name": "wiced_dfu",
-					"systems":
-					[
-						{
-							"url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux32.tar.gz",
-							"checksum": "MD5:355f25629740182d0ead5bc0b8aad42f",
-							"host": "i686-linux-gnu",
-							"archiveFileName": "wiced_dfu-1.0.0-linux32.tar.gz",
-							"size": "28295"
-						},
-						{
-							"url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux64.tar.gz",
-							"checksum": "MD5:ae36e3e3a35ac507955a3ee4f18e4bb7",
-							"host": "x86_64-pc-linux-gnu",
-							"archiveFileName": "wiced_dfu-1.0.0-linux64.tar.gz",
-							"size": "28667"
-						},
-						{
-							"url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-mac.tar.gz",
-							"checksum": "MD5:df388f13c1c76cb4b88a195e5b179b70",
-							"host": "i386-apple-darwin11",
-							"archiveFileName": "wiced_dfu-1.0.0-mac.tar.gz",
-							"size": "3742"
-						},
-						{
-							"url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-win32.tar.gz",
-							"checksum": "MD5:7cbb7ab21c6a524285be5326e3a1009e",
-							"host": "i686-mingw32",
-							"archiveFileName": "wiced_dfu-1.0.0-win32.tar.gz",
-							"size": "525710"
 						}
 					]
 				}
