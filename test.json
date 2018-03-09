@@ -1,0 +1,53 @@
+{
+	"packages":
+	[
+		{
+			"name": "Anidea Engineering AEI FX Series Controllers",
+			"maintainer": "Gabriel Goldstein",
+			"websiteURL": "https://anidea.github.io/aeifx/package_AEIFX300_index.json",
+			"email": "support@anidea-engineering.com",
+			"help":
+			{
+				"online": "http://www.anidea-engineering.com/"
+				},
+				"platforms":
+				[
+					{
+						"name": "AEI FX Escape Game Controllers",
+						"architecture": "avr",
+						"version": "1.0.0",
+						"category": "Contributed",
+						"help":
+						{
+							"online": "http://www.anidea-engineering.com/fx300"
+						},
+						"url": "https://anidea.github.io/aeifx/aeifx-1.0.0.zip",
+						"archiveFileName": "aeifx-1.0.0.zip",
+						"checksum": "SHA-256:373AA96AFD31251D4E5C872DBFAD03A471612EAB6F1FC3D92C37A05B7268C6AD",
+						"size": "7252",
+						"boards":
+						[
+							{
+								"name": "AEI FX300"
+							}
+						],
+						"toolsDependencies":
+						[
+							{
+								"packager": "arduino",
+								"name": "avr-gcc",
+								"version": "4.8.1-arduino5"
+							},
+							{
+								"packager": "arduino",
+								"name": "avrdude",
+								"version": "6.0.1-arduino5"
+							}
+						]
+					}
+				],
+		"tools":[]
+		}
+	]
+}
+
