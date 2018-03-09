@@ -13,6 +13,42 @@
 			"platforms":
 			[
 				{
+					"name": "FX300 FX350 Controller",
+					"architecture": "avr",
+					"version": "1.0.1",
+					"category": "Contributed",
+					"help":
+					{
+						"online": "http://www.github.com/anidea/"
+					},
+					"url": "https://anidea.github.io/aeifx/ae-fx350-1.0.1.zip",
+					"archiveFileName": "ae-fx350-1.0.1.zip",
+					"checksum": "SHA-256:1ccd00028f6f1662cf833ac5e12d38ccca2e11596682850415bea7380ae5758c",
+					"size": "5373",
+					"boards":
+					[
+						{
+							"name": "FX300"
+						},
+						{
+							"name": "FX350"
+						}
+					],
+					"toolsDependencies":
+					[
+						{
+						  "packager": "arduino",
+						  "name": "avr-gcc",
+						  "version": "4.8.1-arduino5"
+						},
+						{
+						  "packager": "arduino",
+						  "name": "avrdude",
+						  "version": "6.0.1-arduino5"
+						}
+					]
+				},
+				{
 					"name": "FX450 Controller",
 					"architecture": "samd",
 					"version": "1.0.1",
