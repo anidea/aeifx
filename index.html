@@ -1,11 +1,21 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
 <head> <meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>FX Series Controllers</title>
+	<script>
+function copyText(inputName)
+{
+  var copyText = document.getElementById(inputName);
+  copyText.select();
+  document.execCommand("Copy");
+}
+</script>
 </head>
 <body>
 	<h1>All FX Controllers</h1>
-	<p>Currently supports the FX300, FX350, and FX450 controllers. Add this URL to your Arduino IDE URL preferences: <a href="https://anidea.github.io/aeifx/package_anidea_index.json">https://anidea.github.io/aeifx/package_anidea_index.json</a></p>
+	<p>Currently supports the FX300, FX350, and FX450 controllers. Add this URL to your Arduino IDE URL preferences:<br>
+	<input type="text" size="56" value="https://anidea.github.io/aeifx/package_anidea_index.json" id="anideaText" readonly>&#09<button onclick="copyText('anideaText')">Copy</button></p>
 	<br>
 	<h1>Legacy FX300 Package</h1>
-	<p>Legacy FX300 package: <a href="https://anidea.github.io/aeifx/package_AEIFX_index.json">https://anidea.github.io/aeifx/package_AEIFX_index.json</a></p>
+	<p>Legacy FX300 package:<br>
+	<input type="text" size="56" value="https://anidea.github.io/aeifx/package_AEIFX_index.json" id="aeifxText" readonly>&#09<button onclick="copyText('aeifxText')">Copy</button></p>
 </body> </html>
