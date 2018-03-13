@@ -51,7 +51,7 @@
 				{
 					"name": "FX 400 Series Escape Room Controllers",
 					"architecture": "samd",
-					"version": "1.0.1",
+					"version": "1.6.18",
 					"category": "Contributed",
 					"url": "https://anidea.github.io/aeifx/ae-fx450-1.0.1.zip",
 					"archiveFileName": "ae-fx450-1.0.1.zip",
@@ -89,48 +89,47 @@
 							"name": "CMSIS",
 							"version": "4.0.0-atmel"
 						}
-					],
-					"tools":
-					[
-						{
-							"version": "5_2-2015q4",
-							"name": "gcc-arm-none-eabi",
-							"systems":
-							[
-								{
-									"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
-									"checksum": "MD5:603bcce8e59683ac27054b3197a53254",
-									"host": "i386-apple-darwin11",
-									"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
-									"size": "96372129"
-								},
-								{
-									"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
-									"checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
-									"host": "i686-linux-gnu",
-									"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
-									"size": "92811866"
-								},
-								{
-									"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
-									"checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
-									"host": "x86_64-pc-linux-gnu",
-									"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
-									"size": "92811866"
-								},
-								{
-									"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
-									"checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
-									"host": "i686-mingw32",
-									"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
-									"size": "102981732"
-								}
-							]
-						}
 					]
 				}
 			],
-			"tools": []
+			"tools":
+			[
+				{
+					"version": "5_2-2015q4",
+					"name": "gcc-arm-none-eabi",
+					"systems":
+					[
+						{
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+							"checksum": "MD5:603bcce8e59683ac27054b3197a53254",
+							"host": "i386-apple-darwin11",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+							"size": "96372129"
+						},
+						{
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+							"checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+							"host": "i686-linux-gnu",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+							"size": "92811866"
+						},
+						{
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+							"checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+							"host": "x86_64-pc-linux-gnu",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+							"size": "92811866"
+						},
+						{
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+							"checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
+							"host": "i686-mingw32",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+							"size": "102981732"
+						}
+					]
+				}
+			]
 		}
 	]
 }
