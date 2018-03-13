@@ -15,16 +15,16 @@
 				{
 					"name": "FX 300 Series Escape Room Controllers",
 					"architecture": "avr",
-					"version": "1.0.1",
+					"version": "1.0.0",
 					"category": "Contributed",
 					"help":
 					{
 						"online": "http://www.github.com/anidea/"
 					},
-					"url": "https://anidea.github.io/aeifx/ae-fx350-1.0.1.zip",
-					"archiveFileName": "ae-fx350-1.0.1.zip",
-					"checksum": "SHA-256:701e686b93576852951721f8060fea0446ff449ec5898ce5ae3ac0487d3a9c97",
-					"size": "675305",
+					"url": "https://anidea.github.io/aeifx/ae-fx350-1.0.0.zip",
+					"archiveFileName": "ae-fx350-1.0.0.zip",
+					"checksum": "SHA-256:3684af058fb82f35285072e0f078b77b9e6a6af9e6ba24bcc599797774efeeff",
+					"size": "675303",
 					"boards":
 					[
 						{
@@ -51,11 +51,11 @@
 				{
 					"name": "FX 400 Series Escape Room Controllers",
 					"architecture": "samd",
-					"version": "1.6.18",
+					"version": "1.0.0",
 					"category": "Contributed",
-					"url": "https://anidea.github.io/aeifx/ae-fx450-1.0.1.zip",
-					"archiveFileName": "ae-fx450-1.0.1.zip",
-					"checksum": "SHA-256:92c05817549a4559ad80ff108f04fd47f2f69da498ff66de6099eff308b94fdb",
+					"url": "https://anidea.github.io/aeifx/ae-fx450-1.0.0.zip",
+					"archiveFileName": "ae-fx450-1.0.0.zip",
+					"checksum": "SHA-256:5ae157efdc7ee4a1b8c2d4dc95ec6d5d7dabcf494d6fc9bfc509e787a8d28119",
 					"size": "1965373",
 					"help":
 					{
