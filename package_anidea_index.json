@@ -70,22 +70,22 @@
 					"toolsDependencies":
 					[
 						{
-							"packager": "Anidea Engineering\hardware\samd\1.0.1",
+							"packager": "Anidea Engineering/hardware/samd/1.0.1",
 							"name": "arm-none-eabi-gcc",
 							"version": "4.8.3-2014q1"
 						},
 						{
-							"packager": "Anidea Engineering\hardware\samd\1.0.1",
+							"packager": "Anidea Engineering/hardware/samd/1.0.1",
 							"name": "bossac",
 							"version": "1.6.1-arduino"
 						},
 						{
-							"packager": "Anidea Engineering\hardware\samd\1.0.1",
+							"packager": "Anidea Engineering/hardware/samd/1.0.1",
 							"name": "openocd",
 							"version": "0.9.0-arduino"
 						},
 						{
-							"packager": "Anidea Engineering\hardware\samd\1.0.1",
+							"packager": "Anidea Engineering/hardware/samd/1.0.1",
 							"name": "CMSIS",
 							"version": "4.0.0-atmel"
 						}
