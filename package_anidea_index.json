@@ -23,8 +23,8 @@
 					},
 					"url": "https://anidea.github.io/aeifx/ae-fx350-1.0.1.zip",
 					"archiveFileName": "ae-fx350-1.0.1.zip",
-					"checksum": "SHA-256:4b43d656fc8f877b7164f47b574468cba08388e08b0e61eca2227cc2ad91a3ca",
-					"size": "5365",
+					"checksum": "SHA-256:701e686b93576852951721f8060fea0446ff449ec5898ce5ae3ac0487d3a9c97",
+					"size": "675305",
 					"boards":
 					[
 						{
@@ -55,8 +55,8 @@
 					"category": "Contributed",
 					"url": "https://anidea.github.io/aeifx/ae-fx450-1.0.1.zip",
 					"archiveFileName": "ae-fx450-1.0.1.zip",
-					"checksum": "SHA-256:8de1b40cccfe5f5212a9dc9d451f41213b61ae60f4a3c2aac4dcc0f95f48541a",
-					"size": "1291355",
+					"checksum": "SHA-256:92c05817549a4559ad80ff108f04fd47f2f69da498ff66de6099eff308b94fdb",
+					"size": "1965373",
 					"help":
 					{
 						"online": "http://www.github.com/anidea/"
@@ -70,22 +70,22 @@
 					"toolsDependencies":
 					[
 						{
-							"packager": "arduino",
+							"packager": "Anidea Engineering\hardware\samd\1.0.1",
 							"name": "arm-none-eabi-gcc",
 							"version": "4.8.3-2014q1"
 						},
 						{
-							"packager": "arduino",
+							"packager": "Anidea Engineering\hardware\samd\1.0.1",
 							"name": "bossac",
 							"version": "1.6.1-arduino"
 						},
 						{
-							"packager": "arduino",
+							"packager": "Anidea Engineering\hardware\samd\1.0.1",
 							"name": "openocd",
 							"version": "0.9.0-arduino"
 						},
 						{
-							"packager": "arduino",
+							"packager": "Anidea Engineering\hardware\samd\1.0.1",
 							"name": "CMSIS",
 							"version": "4.0.0-atmel"
 						}
