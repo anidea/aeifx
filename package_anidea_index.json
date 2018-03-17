@@ -23,8 +23,8 @@
 					},
 					"url": "https://anidea.github.io/aeifx/ae-fx350-1.0.0.zip",
 					"archiveFileName": "ae-fx350-1.0.0.zip",
-					"checksum": "SHA-256:542f17419b83f68d509b13c63798e5ad8f3b52c40ce063e00a63a8fb1316ca7e",
-					"size": "677423",
+					"checksum": "SHA-256:6b268f99a772d43623000e4d9e17fffb49eee3da139f8ea0d6f4226013fb3a7e",
+					"size": "762109",
 					"boards":
 					[
 						{
@@ -55,8 +55,8 @@
 					"category": "Contributed",
 					"url": "https://anidea.github.io/aeifx/ae-fx450-1.0.0.zip",
 					"archiveFileName": "ae-fx450-1.0.0.zip",
-					"checksum": "SHA-256:5ae157efdc7ee4a1b8c2d4dc95ec6d5d7dabcf494d6fc9bfc509e787a8d28119",
-					"size": "1965373",
+					"checksum": "SHA-256:9fb3fc8adc00dfaa1fba431af72fbf29e905614b87ab67f5d2a8243597673f06",
+					"size": "1965382",
 					"help":
 					{
 						"online": "http://www.github.com/anidea/"
