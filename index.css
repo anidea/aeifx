@@ -1,0 +1,10 @@
+@font-face
+{
+    font-family: zerotwos;
+    src: url(zerotwos.ttf) format("truetype");
+}
+
+h1 {
+    color: #149fda;
+    font-family: zerotwos;
+}
