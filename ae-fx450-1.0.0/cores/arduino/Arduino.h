@@ -20,6 +20,8 @@
 #ifndef Arduino_h
 #define Arduino_h
 
+#define FX450
+
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdlib.h>

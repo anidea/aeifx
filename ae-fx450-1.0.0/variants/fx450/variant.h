@@ -19,6 +19,8 @@
 #ifndef _VARIANT_ARDUINO_ZERO_
 #define _VARIANT_ARDUINO_ZERO_
 
+#define FX450
+
 // The definitions here needs a SAMD core >=1.6.10
 #define ARDUINO_SAMD_VARIANT_COMPLIANCE 10610
 
@@ -223,6 +225,8 @@ extern Uart Serial1;
 // Serial has no physical pins broken out, so it's not listed as HARDWARE port
 #define SERIAL_PORT_HARDWARE        Serial1
 #define SERIAL_PORT_HARDWARE_OPEN   Serial1
+
+#define SerialUSB Serial1
 
 #endif /* _VARIANT_ARDUINO_ZERO_ */
 
