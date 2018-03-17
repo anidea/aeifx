@@ -23,8 +23,8 @@
 					},
 					"url": "https://anidea.github.io/aeifx/ae-fx350-1.0.0.zip",
 					"archiveFileName": "ae-fx350-1.0.0.zip",
-					"checksum": "SHA-256:eb1c856357756a8ca5e9839d69d459a262cc483eaec7df9a0c6d872616f1e84c",
-					"size": "853324",
+					"checksum": "SHA-256:10ac04c68af15103382368fcf719e8783615b9f5d94404e2bf834af58fa8ad53",
+					"size": "854544",
 					"boards":
 					[
 						{
@@ -37,14 +37,19 @@
 					"toolsDependencies":
 					[
 						{
-						  "packager": "arduino",
-						  "name": "avr-gcc",
-						  "version": "4.8.1-arduino5"
+							"packager": "arduino",
+							"name": "avr-gcc",
+							"version": "4.9.2-atmel3.5.4-arduino2"
 						},
 						{
-						  "packager": "arduino",
-						  "name": "avrdude",
-						  "version": "6.0.1-arduino5"
+							"packager": "arduino",
+							"name": "avrdude",
+							"version": "6.3.0-arduino9"
+						},
+						{
+							"packager": "arduino",
+							"name": "arduinoOTA",
+							"version": "1.1.1"
 						}
 					]
 				},
