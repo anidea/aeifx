@@ -56,12 +56,12 @@
 				{
 					"name": "FX400 Series Escape Room Controllers",
 					"architecture": "samd",
-					"version": "1.0.0",
+					"version": "1.0.1",
 					"category": "Contributed",
 					"url": "https://anidea.github.io/aeifx/ae-fx450-1.0.0.zip",
 					"archiveFileName": "ae-fx450-1.0.0.zip",
-					"checksum": "SHA-256:ffc8365cc269c170cb2ef064b741e275994b0183074a21f14289a3d0777736f9",
-					"size": "1965079",
+					"checksum": "SHA-256:ae8d1ef5574bdace44cebd15f1e38849eaa0cbdaf3f4a67511a68ed306cd8dc8",
+					"size": "1964476",
 					"help":
 					{
 						"online": "http://www.github.com/anidea/"
