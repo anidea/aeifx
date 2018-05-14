@@ -54,6 +54,47 @@
 					]
 				},
 				{
+					"name": "FX300 Series Escape Room Controllers",
+					"architecture": "avr",
+					"version": "1.0.1",
+					"category": "Contributed",
+					"help":
+					{
+						"online": "http://www.github.com/anidea/"
+					},
+					"url": "https://anidea.github.io/aeifx/ae-fx350-1.0.1.zip",
+					"archiveFileName": "ae-fx350-1.0.1.zip",
+					"checksum": "SHA-256:081c4432faf63826d5c6f0839188ad18e7b52e838c5170a93f6bd9d2c6ba0c97",
+					"size": "887572",
+					"boards":
+					[
+						{
+							"name": "FX300"
+						},
+						{
+							"name": "FX350"
+						}
+					],
+					"toolsDependencies":
+					[
+						{
+							"packager": "arduino",
+							"name": "avr-gcc",
+							"version": "4.9.2-atmel3.5.4-arduino2"
+						},
+						{
+							"packager": "arduino",
+							"name": "avrdude",
+							"version": "6.3.0-arduino9"
+						},
+						{
+							"packager": "arduino",
+							"name": "arduinoOTA",
+							"version": "1.1.1"
+						}
+					]
+				},
+				{
 					"name": "FX400 Series Escape Room Controllers",
 					"architecture": "samd",
 					"version": "1.0.0",
@@ -139,6 +180,49 @@
 						}
 					]
 				}
+				{
+					"name": "FX400 Series Escape Room Controllers",
+					"architecture": "samd",
+					"version": "1.0.2",
+					"category": "Contributed",
+					"url": "https://anidea.github.io/aeifx/ae-fx450-1.0.2.zip",
+					"archiveFileName": "ae-fx450-1.0.2.zip",
+					"checksum": "SHA-256:745a952096e0186d027e429434114c735cf9a6dd7d08bade927e88dcaedd4e24",
+					"size": "1969262",
+					"help":
+					{
+						"online": "http://www.github.com/anidea/"
+					},
+					"boards":
+					[
+						{
+						  "name": "FX450"
+						}
+					],
+					"toolsDependencies":
+					[
+						{
+							"packager": "arduino",
+							"name": "arm-none-eabi-gcc",
+							"version": "4.8.3-2014q1"
+						},
+						{
+							"packager": "arduino",
+							"name": "bossac",
+							"version": "1.6.1-arduino"
+						},
+						{
+							"packager": "arduino",
+							"name": "openocd",
+							"version": "0.9.0-arduino"
+						},
+						{
+							"packager": "arduino",
+							"name": "CMSIS",
+							"version": "4.0.0-atmel"
+						}
+					]
+				},
 			],
 			"tools":
 			[
