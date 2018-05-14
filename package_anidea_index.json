@@ -179,7 +179,7 @@
 							"version": "4.0.0-atmel"
 						}
 					]
-				}
+				},
 				{
 					"name": "FX400 Series Escape Room Controllers",
 					"architecture": "samd",
