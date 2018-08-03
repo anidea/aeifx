@@ -1,0 +1,43 @@
+# Copyright (c) 2014-2015 Arduino LLC.  All right reserved.
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+
+ae_badasscontroller.name=Bad Ass Controller
+ae_badasscontroller.vid.0=0x239A
+ae_badasscontroller.pid.0=0x800B
+ae_badasscontroller.vid.1=0x239A
+ae_badasscontroller.pid.1=0x000B
+ae_badasscontroller.upload.tool=bossac
+ae_badasscontroller.upload.protocol=sam-ba
+ae_badasscontroller.upload.maximum_size=262144
+ae_badasscontroller.upload.use_1200bps_touch=true
+ae_badasscontroller.upload.wait_for_upload_port=true
+ae_badasscontroller.upload.native_usb=true
+ae_badasscontroller.build.mcu=cortex-m0plus
+ae_badasscontroller.build.f_cpu=48000000L
+ae_badasscontroller.build.usb_product="FX450"
+ae_badasscontroller.build.usb_manufacturer="Escape Room Techs."
+ae_badasscontroller.build.board=FX450
+ae_badasscontroller.build.core=badasscontroller
+ae_badasscontroller.build.extra_flags=-DARDUINO_SAMD_ZERO -D__SAMD21G18A__ {build.usb_flags}
+ae_badasscontroller.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+ae_badasscontroller.build.openocdscript=openocd_scripts/arduino_zero.cfg
+ae_badasscontroller.build.variant=badasscontroller
+ae_badasscontroller.build.variant_system_lib=
+ae_badasscontroller.build.vid=0x239A
+ae_badasscontroller.build.pid=0x800B
+ae_badasscontroller.bootloader.tool=openocd
+ae_badasscontroller.bootloader.file=fx450/samd21_sam_ba.bin
