@@ -284,46 +284,6 @@
               "version": "4.0.0-atmel"
             }
           ]
-        },
-        {
-          "name": "Bad Ass Controller Series Escape Room Controllers",
-          "architecture": "samd",
-          "version": "1.0.0",
-          "category": "Contributed",
-          "url": "https://anidea.github.io/aeifx/ae-badasscontroller-1.0.0.zip",
-          "archiveFileName": "ae-badasscontroller-1.0.0.zip",
-          "checksum": "SHA-256:2e5167e9661912ac9244ce9533cd321f361115e4e38cb73698311cff526becec",
-          "size": "1754730",
-          "help": {
-            "online": "http://www.github.com/anidea/"
-          },
-          "boards": [
-            {
-              "name": "Bad Ass Controller"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.8.0-48-gb176eee"
-            },
-            {
-              "packager": "arduino",
-              "name": "openocd",
-              "version": "0.9.0-arduino"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.0.0-atmel"
-            }
-          ]
         }
       ],
 			"tools":

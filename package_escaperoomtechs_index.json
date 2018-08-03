@@ -1,0 +1,95 @@
+{
+	"packages":
+	[
+		{
+			"maintainer": "Gabriel Goldstein",
+			"websiteURL": "http://www.github.com/anidea/",
+			"email": "support@anidea-engineering.com",
+			"name": "Anidea Engineering",
+			"help":
+			{
+				"online": "http://www.github.com/anidea/"
+			},
+      "platforms": [
+        {
+          "name": "Bad Ass Controller Series Escape Room Controllers",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://anidea.github.io/aeifx/ae-badasscontroller-1.0.0.zip",
+          "archiveFileName": "ae-badasscontroller-1.0.0.zip",
+          "checksum": "SHA-256:2e5167e9661912ac9244ce9533cd321f361115e4e38cb73698311cff526becec",
+          "size": "1754730",
+          "help": {
+            "online": "http://www.github.com/anidea/"
+          },
+          "boards": [
+            {
+              "name": "Bad Ass Controller"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+			"tools":
+			[
+				{
+					"version": "5_2-2015q4",
+					"name": "gcc-arm-none-eabi",
+					"systems":
+					[
+						{
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+							"checksum": "MD5:603bcce8e59683ac27054b3197a53254",
+							"host": "i386-apple-darwin11",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+							"size": "96372129"
+						},
+						{
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+							"checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+							"host": "i686-linux-gnu",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+							"size": "92811866"
+						},
+						{
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+							"checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+							"host": "x86_64-pc-linux-gnu",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+							"size": "92811866"
+						},
+						{
+							"url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+							"checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
+							"host": "i686-mingw32",
+							"archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+							"size": "102981732"
+						}
+					]
+				}
+			]
+		}
+	]
+}
