@@ -40,4 +40,4 @@ ae_badasscontroller.build.variant_system_lib=
 ae_badasscontroller.build.vid=0x239A
 ae_badasscontroller.build.pid=0x800B
 ae_badasscontroller.bootloader.tool=openocd
-ae_badasscontroller.bootloader.file=fx450/samd21_sam_ba.bin
+ae_badasscontroller.bootloader.file=badasscontroller/samd21_sam_ba.bin

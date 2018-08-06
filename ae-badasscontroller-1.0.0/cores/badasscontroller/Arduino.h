@@ -20,7 +20,7 @@
 #ifndef Arduino_h
 #define Arduino_h
 
-#define FX450
+#define badasscontroller
 
 #include <stdbool.h>
 #include <stdint.h>
