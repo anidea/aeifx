@@ -1,0 +1,53 @@
+# Anidea Engineering FX Series of boards
+# Forked from Adafruit Trinket, Flora, Gemma Board Configuration
+#
+# For more information see:
+# - https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# - https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
+
+##############################################################
+
+##############################################################
+ae_fx300.name=FX300
+ae_fx300.upload.tool=arduino:avrdude
+ae_fx300.upload.protocol=arduino
+ae_fx300.upload.maximum_size=32256
+ae_fx300.upload.maximum_data_size=2048
+ae_fx300.upload.speed=115200
+ae_fx300.build.usb_product="FX300"
+ae_fx300.build.usb_manufacturer="Anidea Engineering Inc."
+ae_fx300.bootloader.tool=arduino:avrdude
+ae_fx300.bootloader.low_fuses=0xFF
+ae_fx300.bootloader.high_fuses=0xDE
+ae_fx300.bootloader.extended_fuses=0x05
+ae_fx300.bootloader.unlock_bits=0x3F
+ae_fx300.bootloader.lock_bits=0x0F
+ae_fx300.bootloader.file=optiboot/optiboot_atmega328.hex
+ae_fx300.build.mcu=atmega328p
+ae_fx300.build.f_cpu=16000000L
+ae_fx300.build.board=FX300
+ae_fx300.build.core=fx300
+ae_fx300.build.variant=fx300
+
+ae_fx350.name=FX350
+ae_fx350.upload.tool=arduino:avrdude
+ae_fx350.upload.protocol=arduino
+ae_fx350.upload.maximum_size=32256
+ae_fx350.upload.maximum_data_size=2048
+ae_fx350.upload.speed=115200
+ae_fx350.build.usb_product="FX350"
+ae_fx350.build.usb_manufacturer="Anidea Engineering Inc."
+ae_fx350.bootloader.tool=arduino:avrdude
+ae_fx350.bootloader.low_fuses=0xFF
+ae_fx350.bootloader.high_fuses=0xDE
+ae_fx350.bootloader.extended_fuses=0x05
+ae_fx350.bootloader.unlock_bits=0x3F
+ae_fx350.bootloader.lock_bits=0x0F
+ae_fx350.bootloader.file=optiboot/optiboot_atmega328.hex
+ae_fx350.build.mcu=atmega328p
+ae_fx350.build.f_cpu=16000000L
+ae_fx350.build.board=FX350
+ae_fx350.build.core=fx350
+ae_fx350.build.variant=fx350
+
