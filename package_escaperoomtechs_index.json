@@ -51,7 +51,7 @@
             }
           ]
         },
-		{
+        {
           "name": "Bad Ass Controller Series Escape Room Controllers",
           "architecture": "samd",
           "version": "1.0.1",
