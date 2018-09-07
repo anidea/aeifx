@@ -43,6 +43,20 @@ IPAddress::IPAddress(const uint8_t *address)
     memcpy(_address.bytes, address, sizeof(_address.bytes));
 }
 
+String IPAddress::toString()
+{
+	String n;
+
+	for (int i = 0; i < 3; i++)
+	{
+		n += String(_address.bytes[i], DEC);
+		n += '.';
+	}
+	n += String(_address.bytes[3], DEC);
+
+	return n;
+}
+
 bool IPAddress::fromString(const char *address)
 {
     // TODO: add support for "a", "a.b", "a.b.c" formats

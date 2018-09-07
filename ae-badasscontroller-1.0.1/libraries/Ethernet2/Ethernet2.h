@@ -34,6 +34,8 @@ public:
   EthernetClass() { _dhcp = NULL; w5500_cspin = 10; }
   void init(uint8_t _cspin = 10) { w5500_cspin = _cspin; }
 
+  unsigned long dhcpTimeout;
+
 #if defined(WIZ550io_WITH_MACADDRESS)
   // Initialize function when use the ioShield serise (included WIZ550io)
   // WIZ550io has a MAC address which is written after reset.

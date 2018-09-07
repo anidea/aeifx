@@ -23,6 +23,7 @@ public:
   virtual void flush();
   virtual void stop();
   virtual uint8_t connected();
+  virtual IPAddress getRemoteIP();
   virtual operator bool();
   virtual bool operator==(const EthernetClient&);
   virtual bool operator!=(const EthernetClient& rhs) { return !this->operator==(rhs); };

@@ -46,6 +46,8 @@ public:
     IPAddress(uint32_t address);
     IPAddress(const uint8_t *address);
 
+	String toString();
+
     bool fromString(const char *address);
     bool fromString(const String &address) { return fromString(address.c_str()); }
 

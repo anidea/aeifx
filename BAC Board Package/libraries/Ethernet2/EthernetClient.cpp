@@ -124,6 +124,8 @@ void EthernetClient::flush() {
 }
 
 void EthernetClient::stop() {
+	Serial.print("Closing socket ");
+	Serial.println(_sock);
   if (_sock == MAX_SOCK_NUM)
     return;
 
@@ -137,7 +139,10 @@ void EthernetClient::stop() {
 
   // if it hasn't closed, close it forcefully
   if (status() != SnSR::CLOSED)
-    close(_sock);
+  {
+	  Serial.println("Force Closing");
+	  close(_sock);
+  }
 
   EthernetClass::_server_port[_sock] = 0;
   _sock = MAX_SOCK_NUM;
@@ -149,6 +154,13 @@ uint8_t EthernetClient::connected() {
   uint8_t s = status();
   return !(s == SnSR::LISTEN || s == SnSR::CLOSED || s == SnSR::FIN_WAIT ||
     (s == SnSR::CLOSE_WAIT && !available()));
+}
+
+IPAddress EthernetClient::getRemoteIP()
+{
+	byte rip[4];
+	w5500.readSnDIPR(_sock, rip);
+	return rip;
 }
 
 uint8_t EthernetClient::status() {

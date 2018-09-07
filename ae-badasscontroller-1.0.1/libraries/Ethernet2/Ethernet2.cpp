@@ -93,7 +93,7 @@ int EthernetClass::begin(uint8_t *mac_address)
   w5500.setIPAddress(IPAddress(0,0,0,0).raw_address());
 
   // Now try to get our config info from a DHCP server
-  int ret = _dhcp->beginWithDHCP(mac_address);
+  int ret = _dhcp->beginWithDHCP(mac_address, dhcpTimeout);
   if(ret == 1)
   {
     // We've successfully found a DHCP server and got our configuration info, so set things
